@@ -1,0 +1,57 @@
+s
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f10909da;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+}
+
+#sobre, #contato {
+    background-color: #ffffff;
+}
+
+.cardapio-item { 
+    margin-top: 50px; 
+}
+
+.cardapio-item img {
+    width: 40%;
+    height: auto;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+
+}
